@@ -1,9 +1,23 @@
-# TraceHunt
+<h1 align="center">🔎 TraceHunt</h1>
+
+<p align="center">
+  <b>Find any username across 480+ platforms in seconds.</b><br>
+  OSINT recon with one-file HTML reports, a 0–100 digital-footprint score, and a privacy-first <i>no-phone-home</i> default.
+</p>
+
+<p align="center">
+  <a href="https://github.com/Hayatelin/tracehunt/releases"><img src="https://img.shields.io/github/v/release/Hayatelin/tracehunt?color=4f46e5" alt="release"></a>
+  <img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="python">
+  <img src="https://img.shields.io/badge/license-MIT-yellow" alt="license">
+  <img src="https://img.shields.io/badge/tests-passing-brightgreen" alt="tests">
+  <a href="https://github.com/Hayatelin/tracehunt/stargazers"><img src="https://img.shields.io/github/stars/Hayatelin/tracehunt?style=social" alt="stars"></a>
+</p>
 
 <p align="center"><img src="docs/demo.svg" alt="TraceHunt demo" width="760"></p>
 
-**Fast OSINT username reconnaissance across 480+ platforms — with styled HTML
-reports, a digital-footprint score, and a config file.**
+<p align="center"><i>One command, a ranked list of every platform a username exists on, plus a shareable HTML report.</i></p>
+
+---
 
 TraceHunt is a privacy-respecting, self-hostable fork of the well-known
 [Sherlock](https://github.com/sherlock-project/sherlock) project (MIT). It keeps
