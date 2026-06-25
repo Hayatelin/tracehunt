@@ -89,6 +89,21 @@ python -m tracehunt johndoe --config tracehunt.yaml
 
 If you installed it as a command, replace `python -m tracehunt` with `tracehunt`.
 
+## 🤖 Use it from your AI agent (MCP + skill)
+
+TraceHunt ships with an **MCP server** and an **Agent Skill**, so Claude Code,
+Cursor, Codex or Gemini CLI can run username recon for you on demand.
+
+```bash
+pip install "mcp[cli]" -r requirements.txt
+python mcp/tracehunt_mcp.py        # exposes hunt_username() + footprint_score()
+```
+
+Register it with your agent (see [`mcp/README.md`](mcp/README.md)), then just ask:
+*"use tracehunt to check the username octocat"*. Prefer the no-MCP route? The
+[`skill/SKILL.md`](skill/SKILL.md) teaches an agent to drive the CLI directly.
+There's also a plain Python API: `from tracehunt.api import hunt`.
+
 ## Architecture
 
 ```mermaid
