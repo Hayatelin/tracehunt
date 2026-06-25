@@ -1,5 +1,7 @@
 # TraceHunt
 
+<p align="center"><img src="docs/demo.svg" alt="TraceHunt demo" width="760"></p>
+
 **Fast OSINT username reconnaissance across 480+ platforms — with styled HTML
 reports, a digital-footprint score, and a config file.**
 
