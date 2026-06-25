@@ -1,0 +1,12 @@
+# Smithery deployment configuration — https://smithery.ai/docs
+# TraceHunt exposes an MCP server (stdio) with two tools: hunt_username, footprint_score.
+runtime: container
+build:
+  dockerfile: Dockerfile
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |
+    (config) => ({ command: "python", args: ["mcp/tracehunt_mcp.py"] })
