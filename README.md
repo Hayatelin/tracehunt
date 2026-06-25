@@ -13,7 +13,7 @@
   <a href="https://github.com/Hayatelin/tracehunt/stargazers"><img src="https://img.shields.io/github/stars/Hayatelin/tracehunt?style=social" alt="stars"></a>
 </p>
 
-<p align="center"><img src="docs/demo.svg" alt="TraceHunt demo" width="760"></p>
+<p align="center"><img src="docs/demo.gif" alt="TraceHunt demo" width="820"></p>
 
 <p align="center"><i>One command, a ranked list of every platform a username exists on, plus a shareable HTML report.</i></p>
 
