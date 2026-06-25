@@ -1,0 +1,58 @@
+[build-system]
+requires = [ "poetry-core>=1.2.0" ]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry-version-plugin]
+source = "init"
+
+[tool.poetry]
+name = "tracehunt"
+version = "1.0.0"
+description = "TraceHunt — fast OSINT username reconnaissance across 480+ platforms, with HTML reports, digital-footprint scoring and a config file. A privacy-respecting, self-hostable fork of Sherlock."
+license = "MIT"
+authors = [
+    "VictorLin <a5552221279@gmail.com>"
+]
+readme = "README.md"
+packages = [ { include = "tracehunt" } ]
+keywords = [ "osint", "reconnaissance", "information-gathering", "username", "footprint" ]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security"
+]
+homepage = "https://github.com/Hayatelin/tracehunt"
+repository = "https://github.com/Hayatelin/tracehunt"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/Hayatelin/tracehunt/issues"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+certifi = ">=2019.6.16"
+colorama = "^0.4.1"
+PySocks = "^1.7.0"
+requests = "^2.22.0"
+requests-futures = "^1.0.0"
+stem = "^1.8.0"
+pandas = "^2.2.1"
+openpyxl = "^3.0.10"
+tomli = "^2.2.1"
+PyYAML = "^6.0"
+
+[tool.poetry.group.dev.dependencies]
+jsonschema = "^4.0.0"
+rstr = "^3.2.2"
+pytest = "^8.4.2"
+pytest-xdist = "^3.8.0"
+
+[tool.poetry.scripts]
+tracehunt = 'tracehunt.core:main'

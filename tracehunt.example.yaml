@@ -1,0 +1,8 @@
+# TraceHunt config example — copy to tracehunt.yaml and edit.
+# Any key here becomes a default; explicit CLI flags always override it.
+timeout: 30
+summary: true        # always print the footprint summary
+print_found: true    # only show sites where the username was found
+# html: report.html  # uncomment to always write an HTML report
+# nsfw: false
+# proxy: socks5://127.0.0.1:9050
