@@ -6,6 +6,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Hayatelin/tracehunt/actions/workflows/ci.yml"><img src="https://github.com/Hayatelin/tracehunt/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/Hayatelin/tracehunt/releases"><img src="https://img.shields.io/github/v/release/Hayatelin/tracehunt?color=4f46e5" alt="release"></a>
   <img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="python">
   <img src="https://img.shields.io/badge/license-MIT-yellow" alt="license">
